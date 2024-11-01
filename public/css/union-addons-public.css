@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+      transform-origin: 50%;
+    }
+}
+@keyframes spin-left {
+    100% {
+      transform: rotate(-360deg);
+      transform-origin: 50%;
+    }
+}
